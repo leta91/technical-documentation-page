@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background: #EAFFF1;
+}
+
+
+#navbar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #66CDAA;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+#navbar li {
+  display: block;
+  color: #66CDAA;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: black;
+}
+
+#navbar a:hover:not(.active) {
+  background-color: #EAFFF1;
+  color: black;
+}
+
+h2 {
+    border-bottom: 2px solid #000;
+}
+
+main {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+i {
+margin: 2px;
+display: inline-block;
+padding-bottom: 2px;
+font-size: 20px;
+}
+
+code {
+    background: #66CDAA;
+}
+
+#main-doc ul li {
+    margin: 10px 0;
+}
